@@ -6,9 +6,11 @@ const VideoDetail = ({video}) => {
     return <div>Loading...</div>
   }
 
+  // create url with video id
   const videoId = video.id.videoId;
   const url = `https://www.youtube.com/embed/${videoId}`;
 
+  // component
   return (
     <div className="video-detail col-md-8">
       <div className="embed-rsponsive embed-responsive-16by8">

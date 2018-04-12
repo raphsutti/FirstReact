@@ -1,6 +1,7 @@
 import React from 'react';
 
 const VideoListItem = ({video}) => {
+  // imageURL to appear
   const imageUrl = video.snippet.thumbnails.default.url;
   
   return (

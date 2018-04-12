@@ -8,6 +8,7 @@ import VideoDetail from './components/video_detail';
 // YouTube API key - console.developers.google.com
 const API_KEY = 'AIzaSyDYomOy8E018K4w5b5UxDQoImpGecVm5H4';
 
+// setup class with blank video array then insert surfboard serach stored in videos object
 class App extends Component {
   constructor(props) {
     super(props);
