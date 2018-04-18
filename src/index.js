@@ -20,7 +20,6 @@ class App extends Component {
     };
 
     this.videoSearch('surfboards');
-    
   }
 
   // Search term method
